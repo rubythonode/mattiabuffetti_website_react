@@ -1,9 +1,855 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db5ded1a-1a29-4398-b64f-835709438fde" name="Default" comment="">
+    <list default="true" id="5434523d-cf50-4730-a136-664ab138cc83" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/components/Home.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/components/Section/About.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/components/Section/Contact.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/components/Section/Ifame.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/components/Section/Menu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/components/Section/Project.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/components/Section/Tab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/components/Section/TabItem.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/components/Section/TabItemProfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/components/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Black.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Black.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Black.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Black.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-BlackItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-BlackItalic.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-BlackItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-BlackItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-BlackItalic.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Bold.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Bold.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Bold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Bold.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-BoldItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-BoldItalic.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-BoldItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-BoldItalic.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraBold.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraBold.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraBold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraBold.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraBoldItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraBoldItalic.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraBoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraBoldItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraBoldItalic.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraLight.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraLight.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraLight.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraLight.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraLight.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraLightItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraLightItalic.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraLightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraLightItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ExtraLightItalic.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Italic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Italic.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Italic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Italic.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Light.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Light.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Light.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Light.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-LightItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-LightItalic.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-LightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-LightItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-LightItalic.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Medium.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Medium.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Medium.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Medium.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-MediumItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-MediumItalic.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-MediumItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-MediumItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-MediumItalic.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-SemiBold.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-SemiBold.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-SemiBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-SemiBold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-SemiBold.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-SemiBoldItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-SemiBoldItalic.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-SemiBoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-SemiBoldItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-SemiBoldItalic.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Thin.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Thin.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Thin.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Thin.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-Thin.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ThinItalic.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ThinItalic.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ThinItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ThinItalic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/Montserrat-ThinItalic.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/Section/contact.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/Section/project.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp1.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp10.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp2.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp3.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp4.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp5.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp6.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp7.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp8.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg/bmp9.webp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg_breadcrumb_folders.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/bg_breadcrumb_folders2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/clock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/double.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/icon_select.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/imac.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/iphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/scollbar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/scollbar_green.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/assets/img/single.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/_bootstrap-compass.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/_bootstrap-mincer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/_bootstrap-sprockets.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/_bootstrap.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_alerts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_badges.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_breadcrumbs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_button-groups.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_carousel.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_close.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_code.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_component-animations.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_dropdowns.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_forms.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_glyphicons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_grid.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_input-groups.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_jumbotron.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_labels.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_list-group.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_media.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_modals.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_navbar.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_navs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_normalize.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_pager.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_pagination.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_panels.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_popovers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_print.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_progress-bars.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_responsive-embed.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_responsive-utilities.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_scaffolding.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_tables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_theme.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_thumbnails.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_tooltip.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_type.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_utilities.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/_wells.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_alerts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_background-variant.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_border-radius.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_center-block.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_clearfix.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_forms.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_gradients.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_grid-framework.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_grid.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_hide-text.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_image.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_labels.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_list-group.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_nav-divider.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_nav-vertical-align.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_opacity.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_pagination.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_panels.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_progress-bar.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_reset-filter.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_reset-text.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_resize.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_responsive-visibility.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_size.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_tab-focus.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_table-row.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_text-emphasis.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_text-overflow.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/bootstrap/mixins/_vendor-prefixes.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/bootstrap/images/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/font.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/fontAwesome/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/main.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/menu.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/shared/styles/variable.scss" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/santa_timer.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/PHPMailerAutoload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/VERSION" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/class.phpmailer.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/class.phpmaileroauth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/class.phpmaileroauthgoogle.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/class.pop3.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/class.smtp.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/composer.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/DKIM.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/code_generator.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/contactform.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/contents.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/contentsutf8.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/exceptions.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/gmail.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/gmail_xoauth.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/images/phpmailer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/images/phpmailer_mini.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/mail.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/mailing_list.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/pop_before_smtp.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/scripts/XRegExp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/scripts/shAutoloader.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/scripts/shBrushPhp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/scripts/shCore.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/scripts/shLegacy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/send_file_upload.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/send_multiple_file_upload.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/sendmail.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/signed-mail.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/smtp.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/smtp_check.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/smtp_no_auth.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/ssl_options.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shCore.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shCoreDefault.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shCoreDjango.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shCoreEclipse.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shCoreEmacs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shCoreFadeToGrey.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shCoreMDUltra.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shCoreMidnight.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shCoreRDark.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shThemeAppleScript.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shThemeDefault.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shThemeDjango.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shThemeEclipse.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shThemeEmacs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shThemeFadeToGrey.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shThemeMDUltra.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shThemeMidnight.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shThemeRDark.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/shThemeVisualStudio.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/examples/styles/wrapping.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/extras/EasyPeasyICS.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/extras/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/extras/htmlfilter.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/extras/ntlm_sasl_client.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/get_oauth_token.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-am.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-ar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-az.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-be.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-bg.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-ca.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-ch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-cs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-da.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-de.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-el.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-eo.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-es.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-et.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-fa.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-fi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-fo.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-fr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-gl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-he.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-hr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-hu.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-id.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-it.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-ja.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-ka.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-ko.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-lt.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-lv.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-ms.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-nb.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-nl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-pl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-pt.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-pt_br.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-ro.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-ru.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-sk.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-sl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-sr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-sv.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-tr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-uk.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-vi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-zh.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SendMail/language/phpmailer.lang-zh_cn.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Icon/catalogue.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Icon/chatbot.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Icon/close.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Icon/facebook.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Icon/folder.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Icon/fullScreen.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Icon/instagram.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Icon/mail.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Icon/question.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Icon/radio.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Icon/twitter.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/Img/logo-luigi-mattia-buffetti-web-developer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/db/project.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/db/project_real.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/00541b6c6f60fa6ff9ca0f3c08c4d48c.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/0c6980be0d3c87b6f4acd9d4df80a25e.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/0cae1a5553c60e54968f95b73e20711c.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/0f409f15d3a6f4c0734a11da10c10549.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/0fe6a9dec4efb89b1b05e29e2d08c3e4.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/11c74bd9309e9b7a7acd74c535fa9d8a.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/11fde73ad9c6a830098a7c42f9dd07ec.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/17ba62a2566eba556713c2572d7dc551.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/1c41504881a226873a5e3a2e96b7a40a.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/2063ce23866f0db64f61fa6b53d71331.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/2207ae98beb128859909467ef59e3b84.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/2397cc5c063b3e62cc04f98753766a82.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/2400d495c448faddb82de702440e4f84.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/260595ee24b8de4ea7c7ab968d3c367a.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/261822350e0241fa56138b056dcf1eb3.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/2e301ce6749b11e8cf77c31a8f071c89.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/31b8ca97db4f63dadd7312b94d8e7296.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/384c06443698632230214e758972a93c.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/3bdb6d167dba6b6cf265b726a972ee13.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/3fe746f079598e36dc8d2603cd6e9f73.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/409dd4b9877261422c544cfb7f564917.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/40e2c08f0e4bd058fe14d11c42c7778b.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/4315d4b42319feee1c5815e41a30aeca.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/448c34a56d699c29117adc64c43affeb.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/4c0c8f036acc807e8c52d028b17533b1.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/4c0f1ebb7ccef5a95993759bad3ad374.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/4f89662e7032761cd9c4b491f7770907.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/522f03a98183012424710fb3523fa997.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/54eac100b6aecfdfbcafab118237276c.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/569ae0f7da0200df8bb1b1559d66de28.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/575bf645a06b5edd71cb3ff0ec10a0c9.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/5bbf6f284a2cba447550914bbef5c6d3.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/5dddd7939bcc82989070344f8f529860.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/5f110777c239314af999613987b8576c.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/674f50d287a8c48dc19ba404d20fe713.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/69fe1843a8d02c9dd6facc1497be9129.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/72ed96521b26ad2ae8d6fbf888f0bad8.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/768c5d7a2e1802567fdc6f9df383ea20.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/784fe29cfcd8abf4ab8152659fde3c35.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/7aefa329df3a6c506817c9f782db9a89.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/7e490228c9a092f3e93a382418307b90.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/7ee56f2c0e8a09f317c2cf0420c64ce6.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/818f66d886eff09de15dae3707e1c2a2.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/81f2bdd386826303e3d3516b6056816c.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/839bd32db092cb4014e91fe2dca69c49.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/87caeabe60e019dbbbc8da6d9a61b045.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/88a504b333f74b9bb811034ca5cc2d70.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/89889688147bd7575d6327160d64e760.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/89ab5b5bf3ff701a2538ac5c4d59c5c0.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/8aa8daf2904a60ab582d3e52d57ff9d3.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/8f68c69121e0993d6f04fc19f6e2713e.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/912ec66d7572ff821749319396470bde.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/92f9cbe34f03b66e79cb1bfb2919f56f.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/9b6f187708de32d4c7239719d099b07c.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/9c7c894f1f3df506883eb16d861fbc37.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/a2065be1fcf8e3181097d879f6ce4af1.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/a2da90dbc03e75a03d0eba64a0cf3148.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/a5f61c9fc1cd6d9fd98972a572570dce.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/a6f680afc508d77534ce2dbb015f88da.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/a768bebf86cef9ba4df0014c6d3c10f2.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/ae39287e44a1cec3c9b0629daedef262.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/af7ae505a9eed503f8b8e6982036873e.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/b04bff3edce777fca4f88b009b1fc207.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/b06084aaa2d42cd96a1073a7a3a2d93b.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/b06871f281fee6b241d60582ae9369b9.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/b241717ea692f1239502429c64772eeb.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/b4acc95ad5939971cf7ebd99be522d59.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/b7bcaa10ac75904330f288d2d351b4bf.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/bd7205c6689335ee9b575a30c593ffcb.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/c05bd401632f27a026112c54e12bbd53.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/c8e380acbd3d7b4942ccd342787e0522.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/cb638efc5441c866c6f810cd2fb11750.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/cc1f80d2045858a6fd40b6aa624df678.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/ccafbbafde222fbbd4fcce9c0d52399c.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/d065abbc8ebc5d936350d9b02aab9620.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/d137efd2c58f931301b4e71b52543e15.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/d1feb065b7d81736e6fbe71df9be0ee4.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/d594b9210660c394c06cbd217848a054.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/d64fe99fd9023ef9fcd9a9944521caae.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/d8b2272d7d402a2c549d56610a5328d8.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/d9d23ce035052af4c1a38be03557f234.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/da7bef413839b7a3d9d380d1bb57a8d5.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/ddb4a02bd3edf43868207eae45cd03db.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/df3e10316f2ae8e548a13e195a8265a0.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/e1659e262183d7a366fa132d351a1cda.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/e18bbf611f2a2e43afc071aa2f4e1512.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/e36ce3ee8a5c2d12966424c6317c7b2a.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/e5982324742ad5aaac249a9d74705fc4.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/e6460982711a40a44556ee88e8a39cc6.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/e69470a613e57ad1fdf13ac9b864432e.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/e6b7ea1df14d189f4a01acda2aefe1e5.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/e84cac9e58dc7c5d7b2a1f81c0ebd903.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/e9caf09531a6518e8d97919635097b9b.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/eca4fa6616e9e8070f6b747264aa5e1d.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/ee1907d07a1220080762adac88c08202.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/f4769f9bdb7466be65088239c12046d1.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/fa2772327f55d8198301fdb8bcfc8158.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/fc2202fa0b0cac2f4570decf1ef22a4b.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/fe65ef6abc13a1972af5d770bfb31803.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/font/fee66e712a8a08eef5805a46892932ad.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/00541b6c6f60fa6ff9ca0f3c08c4d48c.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/0c6980be0d3c87b6f4acd9d4df80a25e.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/0cae1a5553c60e54968f95b73e20711c.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/0f409f15d3a6f4c0734a11da10c10549.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/0fe6a9dec4efb89b1b05e29e2d08c3e4.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/11c74bd9309e9b7a7acd74c535fa9d8a.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/11fde73ad9c6a830098a7c42f9dd07ec.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/17ba62a2566eba556713c2572d7dc551.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/1c41504881a226873a5e3a2e96b7a40a.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/2063ce23866f0db64f61fa6b53d71331.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/2207ae98beb128859909467ef59e3b84.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/2397cc5c063b3e62cc04f98753766a82.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/2400d495c448faddb82de702440e4f84.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/260595ee24b8de4ea7c7ab968d3c367a.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/261822350e0241fa56138b056dcf1eb3.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/2e301ce6749b11e8cf77c31a8f071c89.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/31b8ca97db4f63dadd7312b94d8e7296.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/384c06443698632230214e758972a93c.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/3bdb6d167dba6b6cf265b726a972ee13.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/3fe746f079598e36dc8d2603cd6e9f73.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/409dd4b9877261422c544cfb7f564917.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/40e2c08f0e4bd058fe14d11c42c7778b.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/4315d4b42319feee1c5815e41a30aeca.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/448c34a56d699c29117adc64c43affeb.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/4c0c8f036acc807e8c52d028b17533b1.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/4c0f1ebb7ccef5a95993759bad3ad374.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/4f89662e7032761cd9c4b491f7770907.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/522f03a98183012424710fb3523fa997.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/54eac100b6aecfdfbcafab118237276c.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/569ae0f7da0200df8bb1b1559d66de28.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/575bf645a06b5edd71cb3ff0ec10a0c9.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/5bbf6f284a2cba447550914bbef5c6d3.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/5dddd7939bcc82989070344f8f529860.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/5f110777c239314af999613987b8576c.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/674f50d287a8c48dc19ba404d20fe713.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/69fe1843a8d02c9dd6facc1497be9129.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/72ed96521b26ad2ae8d6fbf888f0bad8.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/768c5d7a2e1802567fdc6f9df383ea20.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/784fe29cfcd8abf4ab8152659fde3c35.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/7aefa329df3a6c506817c9f782db9a89.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/7e490228c9a092f3e93a382418307b90.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/7ee56f2c0e8a09f317c2cf0420c64ce6.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/818f66d886eff09de15dae3707e1c2a2.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/81f2bdd386826303e3d3516b6056816c.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/839bd32db092cb4014e91fe2dca69c49.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/87caeabe60e019dbbbc8da6d9a61b045.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/88a504b333f74b9bb811034ca5cc2d70.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/89889688147bd7575d6327160d64e760.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/89ab5b5bf3ff701a2538ac5c4d59c5c0.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/8aa8daf2904a60ab582d3e52d57ff9d3.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/8f68c69121e0993d6f04fc19f6e2713e.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/912ec66d7572ff821749319396470bde.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/92f9cbe34f03b66e79cb1bfb2919f56f.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/9b6f187708de32d4c7239719d099b07c.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/9c7c894f1f3df506883eb16d861fbc37.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/a2065be1fcf8e3181097d879f6ce4af1.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/a2da90dbc03e75a03d0eba64a0cf3148.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/a5f61c9fc1cd6d9fd98972a572570dce.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/a6f680afc508d77534ce2dbb015f88da.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/a768bebf86cef9ba4df0014c6d3c10f2.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/ae39287e44a1cec3c9b0629daedef262.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/af7ae505a9eed503f8b8e6982036873e.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/b04bff3edce777fca4f88b009b1fc207.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/b06084aaa2d42cd96a1073a7a3a2d93b.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/b06871f281fee6b241d60582ae9369b9.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/b241717ea692f1239502429c64772eeb.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/b4acc95ad5939971cf7ebd99be522d59.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/b7bcaa10ac75904330f288d2d351b4bf.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/bd7205c6689335ee9b575a30c593ffcb.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/c05bd401632f27a026112c54e12bbd53.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/c8e380acbd3d7b4942ccd342787e0522.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/cb638efc5441c866c6f810cd2fb11750.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/cc1f80d2045858a6fd40b6aa624df678.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/ccafbbafde222fbbd4fcce9c0d52399c.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/d065abbc8ebc5d936350d9b02aab9620.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/d137efd2c58f931301b4e71b52543e15.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/d1feb065b7d81736e6fbe71df9be0ee4.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/d594b9210660c394c06cbd217848a054.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/d64fe99fd9023ef9fcd9a9944521caae.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/d8b2272d7d402a2c549d56610a5328d8.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/d9d23ce035052af4c1a38be03557f234.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/da7bef413839b7a3d9d380d1bb57a8d5.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/ddb4a02bd3edf43868207eae45cd03db.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/df3e10316f2ae8e548a13e195a8265a0.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/e1659e262183d7a366fa132d351a1cda.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/e18bbf611f2a2e43afc071aa2f4e1512.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/e36ce3ee8a5c2d12966424c6317c7b2a.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/e5982324742ad5aaac249a9d74705fc4.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/e6460982711a40a44556ee88e8a39cc6.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/e69470a613e57ad1fdf13ac9b864432e.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/e6b7ea1df14d189f4a01acda2aefe1e5.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/e84cac9e58dc7c5d7b2a1f81c0ebd903.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/e9caf09531a6518e8d97919635097b9b.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/eca4fa6616e9e8070f6b747264aa5e1d.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/ee1907d07a1220080762adac88c08202.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/f4769f9bdb7466be65088239c12046d1.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/fa2772327f55d8198301fdb8bcfc8158.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/fc2202fa0b0cac2f4570decf1ef22a4b.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/fe65ef6abc13a1972af5d770bfb31803.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/font/fee66e712a8a08eef5805a46892932ad.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/app_store_button.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/art-bonus-luig-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/carlo-graziani-oculoplastica-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/ceramic-futures-contenst-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/commissario-terzo-valico-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/d-wok-torino-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/electio-2014-european-parlament-bruxelles-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/federica-borgato-photographer-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/hedronics-webapp-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/huball-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/luigi-mattia-buffetti.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/material-connection-italia-contest-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/pes-widget-party-of-european-socialists-unites-the-socialist-luigi-mattia-buffetti.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/santa-agency-app-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/santa-design-studio-designer-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/social-media-expo-2015-milano-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/stefano-buffetti-omeopata-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/the-cutting-board-for-amatrice-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gallery copy/tpa-academy-milano-luigi-mattia-buffetti-web-developer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/iframe.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index_or.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/sitemap_index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/About.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Contact.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Ifame.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Menu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Project.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Tab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/TabItem.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/TabItemProfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Black.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Black.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Black.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Black.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-BlackItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-BlackItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-BlackItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-BlackItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-BlackItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-BoldItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBold.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraBoldItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLight.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLight.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLight.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLight.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLight.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLightItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ExtraLightItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Italic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Light.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-LightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-LightItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-LightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-LightItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Medium.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Medium.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Medium.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-MediumItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-MediumItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-MediumItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-MediumItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-MediumItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBold.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBoldItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Thin.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Thin.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Thin.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Thin.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-Thin.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ThinItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ThinItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ThinItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ThinItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat-ThinItalic.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Section/contact.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Section/project.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp1.webp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp10.webp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp2.webp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp3.webp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp4.webp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp5.webp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp6.webp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp7.webp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp8.webp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg/bmp9.webp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg_breadcrumb_folders.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/bg_breadcrumb_folders2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/clock.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/double.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/icon_select.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/imac.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/iphone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/scollbar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/scollbar_green.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/assets/img/single.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/_bootstrap-compass.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/_bootstrap-mincer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/_bootstrap-sprockets.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/_bootstrap.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_alerts.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_badges.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_breadcrumbs.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_button-groups.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_buttons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_carousel.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_close.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_code.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_component-animations.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_dropdowns.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_forms.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_glyphicons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_grid.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_input-groups.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_jumbotron.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_labels.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_list-group.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_media.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_modals.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_navbar.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_navs.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_normalize.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_pager.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_pagination.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_panels.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_popovers.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_print.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_progress-bars.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_responsive-embed.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_responsive-utilities.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_scaffolding.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_tables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_theme.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_thumbnails.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_tooltip.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_type.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_utilities.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/_wells.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_alerts.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_background-variant.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_border-radius.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_buttons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_center-block.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_clearfix.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_forms.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_gradients.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_grid-framework.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_grid.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_hide-text.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_image.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_labels.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_list-group.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_nav-divider.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_nav-vertical-align.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_opacity.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_pagination.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_panels.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_progress-bar.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_reset-filter.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_reset-text.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_resize.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_responsive-visibility.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_size.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_tab-focus.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_table-row.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_text-emphasis.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_text-overflow.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/bootstrap/mixins/_vendor-prefixes.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/bootstrap/images/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/font.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_animated.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_bordered-pulled.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_core.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_fixed-width.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_icons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_larger.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_list.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_path.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_rotated-flipped.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_screen-reader.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_stacked.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fontAwesome/font-awesome.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/menu.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variable.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/webpack.loaders.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/webpack.production.config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,24 +858,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Project.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Section/Project.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/components/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="70" lean-forward="false" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+            <state relative-caret-position="675">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -37,91 +872,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="55" column="122" lean-forward="false" selection-start-line="55" selection-start-column="122" selection-end-line="55" selection-end-column="122" />
-              <folding />
+            <state relative-caret-position="45">
+              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project_real.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/db/project_real.json">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2925">
-              <caret line="194" column="50" lean-forward="false" selection-start-line="194" selection-start-column="20" selection-end-line="194" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="178">
+              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/db/project.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="0" column="20494" lean-forward="false" selection-start-line="0" selection-start-column="20494" selection-end-line="0" selection-end-column="20558" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iframe.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iframe.php">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="About.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Section/About.js">
+      <file leaf-file-name="client.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack/client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="660">
+              <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabItemProfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Section/TabItemProfile.js">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="298">
+              <caret line="62" column="51" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Sito_Personale/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="webpack.production.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.production.config.js">
+        <entry file="file://$PROJECT_DIR$/../Sito_Personale/webpack.production.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="2" lean-forward="false" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.loaders.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.loaders.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="885">
+              <caret line="59" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -129,61 +968,13 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lun</find>
-      <find>culture</find>
-      <find>55</find>
-      <find>#botContainer</find>
-      <find>.navbar&gt;.container-fluid .navbar-brand</find>
-      <find>chat</find>
-      <find>Chat</find>
-      <find>/Triennale_999</find>
-      <find>Clock</find>
-      <find>redirect</find>
-      <find>syncHistoryWithStore</find>
-      <find>webp</find>
-      <find>sync</find>
-      <find>guest</find>
-      <find>spec</find>
-      <find>catalo</find>
-      <find>url('</find>
-      <find>time</find>
-      <find>zoom</find>
-      <find>progetti</find>
-      <find>agents</find>
-      <find>project.json</find>
-      <find>derica</find>
-      <find>criticalcssZ5DOfb</find>
-      <find>criticalcssGeIP9R</find>
-      <find>console.log</find>
-      <find>criticalcssUWfjW1</find>
-      <find>criticalcsslngrtN</find>
-      <find>this.proj</find>
-      <find>tpa</find>
+      <find>shared</find>
+      <find>react-g-analytics</find>
+      <find>project.jso</find>
+      <find>&lt;html</find>
     </findStrings>
-    <replaceStrings>
-      <replace>SubActivity</replace>
-      <replace>Activity</replace>
-      <replace>email</replace>
-      <replace>Project</replace>
-      <replace>.props.listVal</replace>
-      <replace>.dropzones</replace>
-      <replace>/Clienti/abitare_999</replace>
-      <replace>jpg</replace>
-      <replace>partner</replace>
-      <replace>url('../fonts/</replace>
-      <replace>projects</replace>
-      <replace>$time</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,57 +987,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin-999/ASLibrary/js/asengine.js" />
-        <option value="$PROJECT_DIR$/admin-999/index.php" />
-        <option value="$PROJECT_DIR$/admin-999/calendar.php" />
-        <option value="$PROJECT_DIR$/admin-999/page.php" />
-        <option value="$PROJECT_DIR$/src/components/Section/Question.js" />
-        <option value="$PROJECT_DIR$/src/components/Section/Event.js" />
-        <option value="$PROJECT_DIR$/src/components/Section/Clock.js" />
-        <option value="$PROJECT_DIR$/src/components/Section/Info.js" />
-        <option value="$PROJECT_DIR$/admin-999/Lang/en.php" />
-        <option value="$PROJECT_DIR$/admin-999/templates/sidebar.php" />
-        <option value="$PROJECT_DIR$/admin-999/ASEngine/ASAjax.php" />
-        <option value="$PROJECT_DIR$/admin-999/ASEngine/ASComment.php" />
-        <option value="$PROJECT_DIR$/admin-999/editGuest.php" />
-        <option value="$PROJECT_DIR$/admin-999/ASLibrary/js/index.js" />
-        <option value="$PROJECT_DIR$/admin-999/editPartner.php" />
-        <option value="$PROJECT_DIR$/admin-999/partner.php" />
-        <option value="$PROJECT_DIR$/admin-999/guest.php" />
-        <option value="$PROJECT_DIR$/admin-999/json.php" />
-        <option value="$PROJECT_DIR$/src/components/Section/Partner.js" />
-        <option value="$PROJECT_DIR$/src/components/Section/Ospiti.js" />
-        <option value="$PROJECT_DIR$/src/components/Section/Catalogue.js" />
-        <option value="$PROJECT_DIR$/src/components/Section/TabItem.js" />
-        <option value="$PROJECT_DIR$/src/styles/font.scss" />
-        <option value="$PROJECT_DIR$/SendMail/index.php" />
-        <option value="$PROJECT_DIR$/src/components/Section/Contact.js" />
-        <option value="$PROJECT_DIR$/src/styles/menu.scss" />
-        <option value="$PROJECT_DIR$/src/styles/variable.scss" />
-        <option value="$PROJECT_DIR$/src/styles/Section/project.scss" />
-        <option value="$PROJECT_DIR$/dist/scripts/main.js" />
-        <option value="$PROJECT_DIR$/src/components/Section/Menu.js" />
-        <option value="$PROJECT_DIR$/src/styles/main.scss" />
-        <option value="$PROJECT_DIR$/dist/styles/font.css" />
-        <option value="$PROJECT_DIR$/dist/styles/main.css" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/src/components/Section/Tab.js" />
-        <option value="$PROJECT_DIR$/src/components/Section/Ifame.js" />
-        <option value="$PROJECT_DIR$/src/components/Section/Project.js" />
-        <option value="$PROJECT_DIR$/sitemap.xml" />
-        <option value="$PROJECT_DIR$/src/components/Section/About.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index_or.html" />
-        <option value="$PROJECT_DIR$/src/styles/Section/contact.scss" />
-        <option value="$PROJECT_DIR$/sitemap_index.xml" />
-        <option value="$PROJECT_DIR$/webpack.production.config.js" />
-        <option value="$PROJECT_DIR$/src/components/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Home.js" />
-        <option value="$PROJECT_DIR$/dist/db/project_real.json" />
-        <option value="$PROJECT_DIR$/dist/db/project.json" />
-        <option value="$PROJECT_DIR$/iframe.php" />
-        <option value="$PROJECT_DIR$/src/components/Section/TabItemProfile.js" />
+        <option value="$PROJECT_DIR$/src/client/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/shared/components/index.js" />
+        <option value="$PROJECT_DIR$/src/shared/components/Home.js" />
+        <option value="$PROJECT_DIR$/webpack/server.js" />
+        <option value="$PROJECT_DIR$/webpack/client.js" />
+        <option value="$PROJECT_DIR$/src/shared/App.js" />
+        <option value="$PROJECT_DIR$/src/server/index.js" />
+        <option value="$PROJECT_DIR$/public/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -255,12 +1004,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
@@ -271,7 +1014,65 @@
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -288,47 +1089,33 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Sito_Personale" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sito_Personale" type="462c0819:PsiDirectoryNode" />
+              <item name="Sito_Personale_Server_Side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sito_Personale_Server_Side" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/mattiabuffetti/Desktop/Project/React/santa_timer/index.html" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/gallery" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/dist/Img" />
-      <recent name="$PROJECT_DIR$/dist/db" />
-      <recent name="$PROJECT_DIR$/src/styles/Section" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dist/styles" />
-      <recent name="$PROJECT_DIR$/admin-999" />
+      <recent name="$PROJECT_DIR$/src/shared" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,7 +1132,6 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -364,14 +1150,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -433,303 +1211,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="santa_timer" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -739,134 +1220,51 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="db5ded1a-1a29-4398-b64f-835709438fde" name="Default" comment="" />
-      <created>1498820001499</created>
+      <changelist id="5434523d-cf50-4730-a136-664ab138cc83" name="Default" comment="" />
+      <created>1510256734561</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1498820001499</updated>
-      <workItem from="1498820004140" duration="47000" />
-      <workItem from="1498820079145" duration="894000" />
-      <workItem from="1499352712013" duration="10123000" />
-      <workItem from="1500401038465" duration="24817000" />
-      <workItem from="1500461593356" duration="2070000" />
-      <workItem from="1500505789500" duration="91000" />
-      <workItem from="1501034959670" duration="179000" />
-      <workItem from="1501506629344" duration="41000" />
-      <workItem from="1501666475390" duration="7493000" />
-      <workItem from="1501690606452" duration="3319000" />
-      <workItem from="1501804657763" duration="1999000" />
-      <workItem from="1503742327196" duration="397000" />
-      <workItem from="1503744265987" duration="62735000" />
-      <workItem from="1503911641105" duration="13406000" />
-      <workItem from="1504004863394" duration="48000" />
-      <workItem from="1504004936627" duration="756000" />
-      <workItem from="1504169301321" duration="27000" />
-      <workItem from="1504169349295" duration="23138000" />
-      <workItem from="1504220405826" duration="4075000" />
-      <workItem from="1504254339228" duration="25687000" />
-      <workItem from="1504356226166" duration="5458000" />
-      <workItem from="1504486621884" duration="10020000" />
-      <workItem from="1504691123782" duration="274000" />
-      <workItem from="1504706255325" duration="423000" />
-      <workItem from="1505428693070" duration="217000" />
-      <workItem from="1505555849291" duration="758000" />
-      <workItem from="1505749314621" duration="493000" />
-      <workItem from="1506608689392" duration="43000" />
-      <workItem from="1506609648685" duration="146000" />
-      <workItem from="1506866972477" duration="526000" />
-      <workItem from="1507188805703" duration="2328000" />
-      <workItem from="1507276238311" duration="144000" />
-      <workItem from="1507334035702" duration="608000" />
-      <workItem from="1507370734310" duration="2785000" />
-      <workItem from="1507393306063" duration="23000" />
-      <workItem from="1508634510911" duration="1559000" />
-      <workItem from="1508702180046" duration="79000" />
-      <workItem from="1510249978781" duration="783000" />
-      <workItem from="1510250905034" duration="590000" />
-      <workItem from="1510251526988" duration="435000" />
+      <updated>1510256734561</updated>
+      <workItem from="1510256738476" duration="3047000" />
+      <workItem from="1510259917084" duration="187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209034000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="3234000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827586" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22818312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29512516" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15665236" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32674572" sideWeight="0.49427754" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827586" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20028612" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.49427754" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277635" sideWeight="0.49427754" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29756796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -875,199 +1273,100 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="4" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin-999/editPartner.php" />
-    <entry file="file://$PROJECT_DIR$/admin-999/partner.php" />
-    <entry file="file://$PROJECT_DIR$/admin-999/ASEngine/ASComment.php" />
-    <entry file="file://$PROJECT_DIR$/admin-999/editGuest.php" />
-    <entry file="file://$PROJECT_DIR$/admin-999/guest.php" />
-    <entry file="file://$PROJECT_DIR$/admin-999/json.php" />
-    <entry file="file://$PROJECT_DIR$/src/components/Section/Partner.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Section/Ospiti.js" />
-    <entry file="file://$PROJECT_DIR$/src/styles/fontAwesome/_core.scss">
+    <entry file="file://$PROJECT_DIR$/src/shared/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="675">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/styles/4f2815e40d475268a275d111b43b7aab.svg" />
-    <entry file="file://$PROJECT_DIR$/dist/Img/e37e6553f08c050539078aceac1d5a12.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/components/Section/Catalogue.js" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js" />
-    <entry file="file://$PROJECT_DIR$/src/styles/font.scss">
+    <entry file="file://$PROJECT_DIR$/src/shared/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3195">
-          <caret line="213" column="22" lean-forward="false" selection-start-line="213" selection-start-column="22" selection-end-line="213" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Section/TabItemContact.js" />
-    <entry file="file://$PROJECT_DIR$/SendMail/extras/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SendMail/examples/sendmail.phps">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="70" lean-forward="true" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SendMail/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/variable.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="137" column="35" lean-forward="false" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/Section/project.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3195">
-          <caret line="213" column="16" lean-forward="false" selection-start-line="213" selection-start-column="16" selection-end-line="213" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="1" column="29580" lean-forward="false" selection-start-line="1" selection-start-column="29580" selection-end-line="1" selection-end-column="29580" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/luigi-mattia-buffetti.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="25" lean-forward="false" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/styles/font.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-964">
-          <caret line="0" column="9465" lean-forward="false" selection-start-line="0" selection-start-column="9465" selection-end-line="0" selection-end-column="9465" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="0" column="7723" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="562884" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Section/Ifame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_or.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Section/TabItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap_index.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/Section/contact.scss">
+    <entry file="file://$PROJECT_DIR$/src/shared/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Section/Menu.js">
+    <entry file="file://$PROJECT_DIR$/src/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="158" lean-forward="false" selection-start-line="18" selection-start-column="158" selection-end-line="18" selection-end-column="158" />
+        <state relative-caret-position="165">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Section/Contact.js">
+    <entry file="file://$PROJECT_DIR$/webpack/client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="93" column="58" lean-forward="false" selection-start-line="93" selection-start-column="58" selection-end-line="93" selection-end-column="58" />
+        <state relative-caret-position="660">
+          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Section/Tab.js">
+    <entry file="file://$PROJECT_DIR$/webpack/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="765">
+          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="11" />
+        <state relative-caret-position="405">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
+    <entry file="file://$PROJECT_DIR$/../Sito_Personale/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sito_Personale/webpack.production.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/shared/app.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="21" column="659" lean-forward="false" selection-start-line="21" selection-start-column="659" selection-end-line="21" selection-end-column="659" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1076,110 +1375,189 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/index.js">
+    <entry file="file://$PROJECT_DIR$/src/client/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="45">
+          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Section/Project.js">
+    <entry file="file://$PROJECT_DIR$/webpack/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="70" lean-forward="false" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/Section/TabItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/Section/TabItemProfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/Section/Project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/Section/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/Section/Ifame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/Section/Contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/Section/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/db/project.json">
+    <entry file="file://$PROJECT_DIR$/src/shared/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Sito_Personale/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="0" column="20494" lean-forward="false" selection-start-line="0" selection-start-column="20494" selection-end-line="0" selection-end-column="20558" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/db/project_real.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2925">
-          <caret line="194" column="50" lean-forward="false" selection-start-line="194" selection-start-column="20" selection-end-line="194" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iframe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Section/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Section/TabItemProfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.production.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="2" lean-forward="false" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.loaders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="55" column="122" lean-forward="false" selection-start-line="55" selection-start-column="122" selection-end-line="55" selection-end-column="122" />
+        <state relative-caret-position="405">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Sito_Personale/webpack.production.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="62" column="51" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
