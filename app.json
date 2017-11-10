@@ -1,0 +1,20 @@
+{
+  "name": "mattiabuffetti_website_react",
+  "scripts": {
+  },
+  "env": {
+    "NPM_CONFIG_PRODUCTION": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
