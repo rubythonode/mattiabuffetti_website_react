@@ -13,10 +13,10 @@ export default class Catalogue extends Component {
 	}
 	render () {
 		var height = window.innerHeight - 200;
-		var url = this.props.url;
+		var urlImg = require('../..//Img/logo-luigi-mattia-buffetti-web-developer.png');
 		return (
 			<div id="navbar">
-				<img src={url+"dist/Img/logo-luigi-mattia-buffetti-web-developer.png"} alt="Logo Luigi Mattia Buffetti - Web Developer" width={80} height={123} />
+				<img src={urlImg} alt="Logo Luigi Mattia Buffetti - Web Developer" width={80} height={123} />
 			<nav>
 				<ul>
 					<li>

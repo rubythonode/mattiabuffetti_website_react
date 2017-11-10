@@ -14,7 +14,7 @@ export default class Project extends Component {
 		var _this = this;
 		this.serverRequestCatMerc =
 			axios
-			.get(url+"dist/db/project.json")
+			.get("https://jacopobuffetti.com/project.json")
 			.then(function(result) {
 				_this.setState({
 					project: result.data.project,
