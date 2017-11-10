@@ -4,7 +4,7 @@ import { flushChunkNames } from 'react-universal-component/server';
 import flushChunks from 'webpack-flush-chunks';
 import Helmet from 'react-helmet'
 
-import App from '../shared/App';
+import App from '../shared/components/index';
 
 /**
  * Provides the server side rendered app. In development environment, this method is called by
