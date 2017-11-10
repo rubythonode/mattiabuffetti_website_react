@@ -35,10 +35,11 @@ export default class Home extends Component {
               <ul id="projectList" className="clearfix">
 				  {this.state.project.reverse().map(function (item, i) {
 					  var img = (window.innerWidth !== 1024) ? item.image : item.image.replace('.jpg', '-1024.jpg');
+					  var urlImg = require('./gallery/'+img);
 					  return (
                           <li key={i}>
                             <Link to={url+'projects/'+item.url}>
-                              <img src={url+'gallery/'+img} alt={item.title} width={500} height={333} />
+                              <img src={urlImg} alt={item.title} width={500} height={333} />
 								<div className="hoverText">
 									<h3>{item.title}</h3>
 								</div>
