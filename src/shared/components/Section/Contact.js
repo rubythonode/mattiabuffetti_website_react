@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import Helmet from 'react-helmet'
 function validateEmail(email) {
 	var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 	return re.test(email);
@@ -68,8 +69,20 @@ export default class Contact extends Component {
 		}
 	}
 	render () {
+		var imgShare = require('../../Img/social_graph.jpg');
 		return (
 			<div>
+				<Helmet
+					title={'Luigi Mattia Buffetti - Get In Touch'}
+					meta={[
+						{ name: 'description', content: 'I developed a lot of site so I know the PHP and MySql, HTML, CSS, Javascript, Jquery and Ajax and I created for a client a plugin for wordpress to get the image from Instagram using hashtag and from the wordpress admin panel it is possibile to manage the image. I developed it using jQuery, Ajax and I use the REST API of Instagram.' },
+						{ name: 'keywords', content: 'Web Developer' },
+						{ property: 'og:title', content: 'Luigi Mattia Buffetti - Get In Touch' },
+						{ property: 'og:description', content: 'I developed a lot of site so I know the PHP and MySql, HTML, CSS, Javascript, Jquery and Ajax and I created for a client a plugin for wordpress to get the image from Instagram using hashtag and from the wordpress admin panel it is possibile to manage the image. I developed it using jQuery, Ajax and I use the REST API of Instagram.' },
+						{ property: 'og:url', content: 'Luigi Mattia Buffetti - Web Developer' },
+						{ property: 'og:image', content: imgShare },
+					]}
+				/>
 				<h1>Contact</h1>
 				<div id="contact">
 					<div className="row">

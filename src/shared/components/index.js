@@ -7,7 +7,7 @@ import Contact from './Section/Contact'
 import Project from './Section/Project'
 import Home from './Home'
 import axios from 'axios';
-
+import Helmet from 'react-helmet'
 const urlSite = '/';
 export default class App extends Component {
 	constructor(props) {
@@ -55,6 +55,11 @@ export default class App extends Component {
 		return this.state.loading === true ? <h1>Loading</h1> : (
 			<BrowserRouter>
 				<div>
+					<Helmet
+						link={[
+							{ rel: 'canonical', content: 'http://mattiabuffetti.com' }
+						]}
+					/>
 					<header>
 						<Menu url={urlSite} />
 					</header>

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/server';
 import { flushChunkNames } from 'react-universal-component/server';
 import flushChunks from 'webpack-flush-chunks';
+import Helmet from 'react-helmet'
 
 import App from '../shared/App';
 
@@ -17,6 +18,10 @@ export default ({ clientStats }) => async (req, res, next) => {
     );
 
     const appString = ReactDOM.renderToString(app);
+	const head = Helmet.rewind();
+	const title = head.title;
+	const meta = head.meta;
+	const link = head.link;
     const chunkNames = flushChunkNames();
     const { js, styles, cssHash } = flushChunks(clientStats, { chunkNames });
 
@@ -24,6 +29,9 @@ export default ({ clientStats }) => async (req, res, next) => {
         appString,
         js,
         styles,
-        cssHash
+        cssHash,
+        title,
+        meta,
+        link
     });
 };

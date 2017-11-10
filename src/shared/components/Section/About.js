@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Route, BrowserRouter, Link, Redirect, Switch } from 'react-router-dom'
 import TabItemProfile from './TabItemProfile'
+import Helmet from 'react-helmet'
 export default class About extends Component {
 	constructor(props) {
 		super(props);
@@ -18,6 +19,14 @@ export default class About extends Component {
 		var url = this.props.match.url.replace('about', '');
 		return (
 			<div>
+				<Helmet
+					title={'Luigi Mattia Buffetti - Web Developer'}
+					meta={[
+						{ name: 'description', content: 'I developed a lot of site so I know the PHP and MySql, HTML, CSS, Javascript, Jquery and Ajax and I created for a client a plugin for wordpress to get the image from Instagram using hashtag and from the wordpress admin panel it is possibile to manage the image. I developed it using jQuery, Ajax and I use the REST API of Instagram.' },
+						{ name: 'keywords', content: 'Web Developer' },
+						{ property: 'og:title', content: 'Luigi Mattia Buffetti - Web Developer' },
+					]}
+				/>
 				<h1>About</h1>
 				<div id="about">
 					<div className="row">
