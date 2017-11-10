@@ -18,12 +18,14 @@ export default class App extends Component {
 		};
 	}
 	updateDimensions() {
-		if(window.innerWidth < 500) {
-			this.setState({ width: 450, height: 102 });
-		} else {
-			let update_width  = window.innerWidth-100;
-			let update_height = Math.round(update_width/4.4);
-			this.setState({ width: update_width, height: update_height });
+		if(typeof window !== 'undefined') {
+			if (window.innerWidth < 500) {
+				this.setState({width: 450, height: 102});
+			} else {
+				let update_width  = window.innerWidth - 100;
+				let update_height = Math.round(update_width / 4.4);
+				this.setState({width: update_width, height: update_height});
+			}
 		}
 		var _this = this;
 		this.serverRequestCatMerc =
@@ -44,14 +46,20 @@ export default class App extends Component {
 			loading: false
 		});
 		this.updateDimensions();
-		window.addEventListener("resize", this.updateDimensions.bind(this));
+		if(typeof window !== 'undefined') {
+			window.addEventListener("resize", this.updateDimensions.bind(this));
+		}
 	}
 	componentWillUnmount () {
 		this.removeListener();
-		window.removeEventListener("resize", this.updateDimensions.bind(this));
+		if(typeof window !== 'undefined') {
+			window.removeEventListener("resize", this.updateDimensions.bind(this));
+		}
 	}
 	render() {
-		var minHeight = (window.innerWidth > 767) ? window.innerHeight - 89 : window.innerHeight - 171;
+		if(typeof window !== 'undefined') {
+			var minHeight = (window.innerWidth > 767) ? window.innerHeight - 89 : window.innerHeight - 171;
+		}
 		return this.state.loading === true ? <h1>Loading</h1> : (
 			<BrowserRouter>
 				<div>
