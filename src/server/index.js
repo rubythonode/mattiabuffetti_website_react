@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/server';
 import { flushChunkNames } from 'react-universal-component/server';
 import flushChunks from 'webpack-flush-chunks';
 import Helmet from 'react-helmet'
+import { Provider } from 'react-redux'
+import { StaticRouter } from 'react-router'
 
 import App from '../shared/components/index';
 
@@ -14,7 +16,11 @@ import App from '../shared/components/index';
  */
 export default ({ clientStats }) => async (req, res, next) => {
     const app = (
-        <App/>
+		<Provider store={store}>
+			<StaticRouter location={location}>
+				<App />
+			</StaticRouter>
+		</Provider>
     );
 
     const appString = ReactDOM.renderToString(app);
